@@ -6,7 +6,16 @@ An example WooCommerce Admin plugjn that adds a phone number column to WooCommer
 
 ## Development
 
-To get started, run the following commands:
+This is a developmental repo and will not work as a plugin without being compiled.
+
+To compile the plugin for immediate use, run the following commands:
+
+```text
+npm install
+npm start
+```
+
+To get started with development, run the following commands:
 
 ```text
 npm install
