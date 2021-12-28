@@ -11,15 +11,23 @@
     "lint:css": "wp-scripts lint-style",
     "lint:js": "wp-scripts lint-js",
     "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "release": "npm run build && grunt build",
     "start": "wp-scripts start",
     "test:e2e": "wp-scripts test-e2e",
     "test:unit": "wp-scripts test-unit-js"
   },
   "devDependencies": {
-    "@wordpress/scripts": "^6.0.0",
-    "mini-css-extract-plugin": "^0.8.0",
-    "sass-loader": "7.3.1",
-    "css-loader": "3.3.0",
-    "node-sass": "4.13.0"
+    "@wordpress/scripts": "^19.2.2",
+    "mini-css-extract-plugin": "^2.4.5",
+    "sass-loader": "12.4.0",
+    "css-loader": "6.5.1",
+    "node-sass": "7.0.1",
+    "grunt": "^1.4.1",
+    "grunt-contrib-clean": "~2.0.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-compress": "^2.0.0",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-wp-i18n": "~1.0.3",
+    "load-grunt-tasks": "~5.1.0"
   }
 }
