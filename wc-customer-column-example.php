@@ -11,8 +11,8 @@
  * Requires at least: 5.3.0
  * Requires PHP: 5.6.20
  *
- * WC requires at least: 3.6.0
- * WC tested up to: 4.3.0
+ * WC requires at least: 5.6.0
+ * WC tested up to: 6.0.0
  *
  * @package WC_Admin
  */
