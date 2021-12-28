@@ -131,7 +131,10 @@
     // Make a zip file.
     grunt.registerTask( 'zip', [ 'clean', 'copy', 'compress' ] );
 
-	// Default task(s).
-	grunt.registerTask( 'build', [ 'addtextdomain', 'replace', 'makepot', 'zip', 'clean' ] );
+	// Build.
+	grunt.registerTask( 'build', [ 'addtextdomain', 'replace', 'makepot' ] );
+
+    // Release task(s).
+	grunt.registerTask( 'release', [ 'build', 'zip', 'clean' ] );
 
 };
