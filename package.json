@@ -1,9 +1,9 @@
 {
-  "name": "wc-custom-customer-column",
-  "title": "WC Custom Customer Column",
+  "name": "wc-customer-column-example",
+  "title": "WC Customer Column Example",
   "license": "GPL-3.0-or-later",
   "version": "0.1.0",
-  "description": "WC Custom Customer Column",
+  "description": "An example WooCommerce Admin plugjn that adds a phone number column to WooCommerce Customers table.",
   "scripts": {
     "build": "wp-scripts build",
     "check-engines": "wp-scripts check-engines",
