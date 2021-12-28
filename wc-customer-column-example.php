@@ -5,7 +5,7 @@
  * Description: Add a column to Customers table
  * Author: Kathy Darling
  * Author URI: https://kathyisawesome.com/
- * Text Domain: wc-custom-customer-column
+ * Text Domain: wc-customer-column-example
  * Domain Path: /languages
  * Version: 1.0.0-dev
  * Requires at least: 5.3.0
@@ -43,6 +43,8 @@ function kia_add_extension_register_script() {
 	);
 
 	wp_enqueue_script( 'wc-custom-customer-column' );
+
+	wp_set_script_translations( 'wc-custom-customer-column', 'wc-customer-column-example' );
 }
 
 add_action( 'admin_enqueue_scripts', 'kia_add_extension_register_script' );
@@ -62,7 +64,7 @@ function kia_add_customer_extended_attributes_schema( $properties ) {
 		'type'        => 'string',
 		'readonly'    => true,
 		'context'     => array( 'view', 'edit' ),
-		'description' => __( 'Customer billing phone', 'wc-customer-column' ),
+		'description' => __( 'Customer billing phone', 'wc-custom-customer-column', 'wc-customer-column-example' ),
 	);
 
 	return $properties;
