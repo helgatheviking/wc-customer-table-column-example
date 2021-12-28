@@ -26,6 +26,7 @@
 					'!composer.json',
                     '!composer.lock',
 					'!build/**',
+                    '!vendor/**',
 					'!license.txt',
 					'!js\dist\index.deps.json',
 					'!js/dist/index.asset.php',
