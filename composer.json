@@ -2,8 +2,5 @@
 	"name": "helgatheviking/wc-customer-column-example",
 	"description": "An example WooCommerce Admin plugjn that adds a phone number column to WooCommerce Customers table.",
 	"type": "wordpress-plugin",
-	"keywords": ["wordpress", "plugin", "woocommerce"],
-	"require": {
-		"php": ">=5.4"
-	}
+	"keywords": ["wordpress", "plugin", "woocommerce"]
 }
